@@ -1,5 +1,4 @@
 import './App.css';
-import { useState } from 'react';
 import Cards from './components/card/Cards';
 import Signin from './components/sign/Signin';
 import Settings from './components/settings/Settings';

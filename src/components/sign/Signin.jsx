@@ -6,6 +6,7 @@ const Signin = () => {
   const [user, setUser] = useState('');
   const [item, setItem] = useState();
   const navigate = useNavigate();
+  console.log(item);
 
   const submitHandler = (e) => {
     e.preventDefault();
