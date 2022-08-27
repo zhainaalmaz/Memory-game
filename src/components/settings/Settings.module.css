@@ -30,18 +30,29 @@
 }
 
 .button {
+  width: 100%;
   padding: 8px 24px;
-  margin: 30px auto 20px;
-  display: flex;
+  margin: 30px auto 0;
   cursor: pointer;
   transition: all 0.25s ease-in-out;
   font-size: 18px;
-  font-weight: 400;
   color: rgba(34, 33, 33, 0.85);
+  border-radius: 8px;
 }
 
 .button:hover {
-  transition: all 0.25s ease-in-out;
   box-shadow: 0 8px 32px 0 rgba(248, 249, 251, 0.371);
   font-weight: 600;
+}
+
+@media (max-width: 556px) {
+  .settings h2 {
+    padding: 0 0 20px 0;
+  }
+
+  .setting {
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+  }
 }

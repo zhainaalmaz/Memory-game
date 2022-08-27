@@ -4,3 +4,7 @@
   font-weight: 600;
   padding: 20px;
 }
+.timer {
+  display: flex;
+  justify-content: space-between;
+}

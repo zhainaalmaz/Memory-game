@@ -1,4 +1,46 @@
 .board {
   cursor: pointer;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 200px;
+}
+
+.board h3 {
+  padding: 10px;
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.board select {
+  width: 40%;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.board_item {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.board_item p {
+  font-size: 20px;
+}
+
+.board_info button {
+  width: 100%;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.categories button {
+  width: 100%;
+  padding: 5px 10px;
 }

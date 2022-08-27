@@ -1,0 +1,37 @@
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1em;
+}
+
+.modal_inner {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal_info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modal_info p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.modal_link {
+  padding: 10px 0;
+}
+
+.modal_link button {
+  width: 100%;
+}
+
+@media (max-width: 556px) {
+  .content {
+    gap: 5px;
+  }
+}

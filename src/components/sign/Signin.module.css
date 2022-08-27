@@ -19,3 +19,31 @@
   padding: 15px 25px;
   border-radius: 8px;
 }
+
+.form_button {
+  /* display: flex;
+  align-items: center;
+  height: 46px;
+  border-radius: 8px;
+  justify-content: center;
+  font-size: 16px; */
+}
+
+.form_button:hover {
+  transition: all 0.25s ease-in-out;
+  font-weight: 600;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+@media (max-width: 556px) {
+  .signin_layout {
+    padding: 0;
+  }
+
+  .form {
+    padding: 0;
+  }
+}

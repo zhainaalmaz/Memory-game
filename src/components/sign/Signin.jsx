@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import cls from './Signin.module.css';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Signin = () => {
   const [user, setUser] = useState('');
-  //   const [error, setError] = useState('');
   const [item, setItem] = useState();
+  const navigate = useNavigate();
 
   const submitHandler = (e) => {
     e.preventDefault();
     localStorage.setItem('player', JSON.stringify(user));
     setUser('');
+    navigate('/settings');
   };
 
   useEffect(() => {
@@ -21,7 +22,7 @@ const Signin = () => {
     <div className={cls.signin_layout}>
       <div className="container">
         <h1 className={cls.title}>Please enter your name</h1>
-        <form onSubmit={submitHandler} className={cls.form}>
+        <form className={cls.form}>
           <input
             placeholder="Enter your name"
             className={cls.form_input}
@@ -30,16 +31,14 @@ const Signin = () => {
             value={user}
             onChange={(e) => setUser(e.target.value)}
           />
-          <button className={cls.form_button} type="submit">
-            Enter
+          <button
+            onClick={submitHandler}
+            className={cls.form_button}
+            type="submit"
+            disabled={!user}
+          >
+            Начать игру
           </button>
-          {item && (
-            <Link to={'/settings'}>
-              <button className={cls.form_button} type="submit">
-                Начать игру
-              </button>
-            </Link>
-          )}
         </form>
       </div>
     </div>

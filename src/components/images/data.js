@@ -85,12 +85,12 @@ const miracles = [
 const films = [
   {
     id: 1,
-    img: 'https://qph.cf2.quoracdn.net/main-qimg-3a9dbdc3260b90de66f778585652694c-lq',
+    img: 'https://images.indulgexpress.com/uploads/user/imagelibrary/2022/6/17/original/KitHaringtonwillstarasJonSnowinanewGameofThronesspin-offseries.jpg?w=400&dpr=2.6',
     stat: '',
   },
   {
     id: 1,
-    img: 'https://qph.cf2.quoracdn.net/main-qimg-3a9dbdc3260b90de66f778585652694c-lq',
+    img: 'https://images.indulgexpress.com/uploads/user/imagelibrary/2022/6/17/original/KitHaringtonwillstarasJonSnowinanewGameofThronesspin-offseries.jpg?w=400&dpr=2.6',
     stat: '',
   },
   {
@@ -145,12 +145,12 @@ const films = [
   },
   {
     id: 7,
-    img: 'https://laughingsquid.com/wp-content/uploads/2014/06/HEATH_LEDGER_JOKER_by_BobbyC1225.jpg',
+    img: 'https://kinogo.zone/uploads/posts/2020-06/1591714876-786706714-11-1.jpg',
     stat: '',
   },
   {
     id: 7,
-    img: 'https://laughingsquid.com/wp-content/uploads/2014/06/HEATH_LEDGER_JOKER_by_BobbyC1225.jpg',
+    img: 'https://kinogo.zone/uploads/posts/2020-06/1591714876-786706714-11-1.jpg',
     stat: '',
   },
   {
@@ -165,12 +165,105 @@ const films = [
   },
 ];
 
+const japanese = [
+  {
+    id: 1,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Regular_Style_CJKV_Radical_050_%280%29.svg/1200px-Regular_Style_CJKV_Radical_050_%280%29.svg.png?20140109003126',
+    stat: '',
+  },
+  {
+    id: 1,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Regular_Style_CJKV_Radical_050_%280%29.svg/1200px-Regular_Style_CJKV_Radical_050_%280%29.svg.png?20140109003126',
+    stat: '',
+  },
+  {
+    id: 2,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Japanese_Katakana_kyokashotai_U.svg/640px-Japanese_Katakana_kyokashotai_U.svg.png?1661415191705',
+    stat: '',
+  },
+  {
+    id: 2,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Japanese_Katakana_kyokashotai_U.svg/640px-Japanese_Katakana_kyokashotai_U.svg.png?1661415191705',
+    stat: '',
+  },
+  {
+    id: 3,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Japanese_Katakana_kyokashotai_TU.svg/640px-Japanese_Katakana_kyokashotai_TU.svg.png?1661415213964',
+    stat: '',
+  },
+  {
+    id: 3,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Japanese_Katakana_kyokashotai_TU.svg/640px-Japanese_Katakana_kyokashotai_TU.svg.png?1661415213964',
+    stat: '',
+  },
+  {
+    id: 4,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Japanese_Katakana_kyokashotai_TI.svg/640px-Japanese_Katakana_kyokashotai_TI.svg.png?1661415353338',
+    stat: '',
+  },
+  {
+    id: 4,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Japanese_Katakana_kyokashotai_TI.svg/640px-Japanese_Katakana_kyokashotai_TI.svg.png?1661415353338',
+    stat: '',
+  },
+  {
+    id: 5,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Japanese_Hiragana_kyokashotai_TI.svg/640px-Japanese_Hiragana_kyokashotai_TI.svg.png?1661415370543',
+    stat: '',
+  },
+  {
+    id: 5,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Japanese_Hiragana_kyokashotai_TI.svg/640px-Japanese_Hiragana_kyokashotai_TI.svg.png?1661415370543',
+    stat: '',
+  },
+  {
+    id: 6,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Japanese_Katakana_kyokashotai_YA.svg/640px-Japanese_Katakana_kyokashotai_YA.svg.png?1661415395872',
+    stat: '',
+  },
+  {
+    id: 6,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Japanese_Katakana_kyokashotai_YA.svg/640px-Japanese_Katakana_kyokashotai_YA.svg.png?1661415395872',
+    stat: '',
+  },
+  {
+    id: 7,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Japanese_Katakana_kyokashotai_WI.svg/640px-Japanese_Katakana_kyokashotai_WI.svg.png?1661415428845',
+    stat: '',
+  },
+  {
+    id: 7,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Japanese_Katakana_kyokashotai_WI.svg/640px-Japanese_Katakana_kyokashotai_WI.svg.png?1661415428845',
+    stat: '',
+  },
+  {
+    id: 8,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Japanese_Hiragana_kyokashotai_TA.svg/640px-Japanese_Hiragana_kyokashotai_TA.svg.png?1661415454805',
+    stat: '',
+  },
+  {
+    id: 8,
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Japanese_Hiragana_kyokashotai_TA.svg/640px-Japanese_Hiragana_kyokashotai_TA.svg.png?1661415454805',
+    stat: '',
+  },
+];
+
 const proMiraclesItems = [...miracles].sort(() => Math.random() - 0.5);
 const proFilmsItems = [...films].sort(() => Math.random() - 0.5);
+const proJapaneseItems = [...japanese].sort(() => Math.random() - 0.5);
 
-const easyMiraclesItems = [...miracles]
-  .slice(0, 12)
-  .sort(() => Math.random() - 0.5);
-const easyFilmsItems = [...films].slice(0, 8).sort(() => Math.random() - 0.5);
+const easyMiraclesItems = [...miracles].slice(0, 12);
+// .sort(() => Math.random() - 0.5);
+const easyFilmsItems = [...films].slice(0, 12);
+// .sort(() => Math.random() - 0.5);
+const easyJapaneseItems = [...japanese].slice(0, 12);
+// .sort(() => Math.random() - 0.5);
 
-export { proMiraclesItems, proFilmsItems, easyMiraclesItems, easyFilmsItems };
+export {
+  proMiraclesItems,
+  proFilmsItems,
+  proJapaneseItems,
+  easyMiraclesItems,
+  easyFilmsItems,
+  easyJapaneseItems,
+};

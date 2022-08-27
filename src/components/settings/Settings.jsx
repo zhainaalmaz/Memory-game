@@ -4,15 +4,11 @@ import { CATEGORIES, PACE } from '../../utils/constant';
 import RadioBox from '../radiobox/RadioBox.jsx';
 import styles from './Settings.module.css';
 
-const Settings = ({ startGame }) => {
+const Settings = () => {
   const player = JSON.parse(localStorage.getItem('player')) || '';
 
   const [category, setCategory] = useState(CATEGORIES[0]);
   const [level, setLevel] = useState(PACE[0]);
-
-  const onStartGameClick = () => {
-    startGame({ category, level });
-  };
 
   localStorage.setItem(
     'settings',
@@ -51,11 +47,17 @@ const Settings = ({ startGame }) => {
         ))}
       </div>
 
-      <Link to={'/cards'}>
-        <button className={styles.button} onClick={onStartGameClick}>
-          Start
-        </button>
-      </Link>
+      <div>
+        <Link to={'/cards'}>
+          <button className={styles.button}>Start</button>
+        </Link>
+        <Link to={'/board'}>
+          <button className={styles.button}>Board</button>
+        </Link>
+        <Link to={'/rules'}>
+          <button className={styles.button}>Rules</button>
+        </Link>
+      </div>
     </div>
   );
 };
