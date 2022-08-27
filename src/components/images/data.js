@@ -80,7 +80,6 @@ const miracles = [
     stat: '',
   },
 ];
-// .sort(() => Math.random() - 0.5);
 
 const films = [
   {
@@ -252,12 +251,13 @@ const proMiraclesItems = [...miracles].sort(() => Math.random() - 0.5);
 const proFilmsItems = [...films].sort(() => Math.random() - 0.5);
 const proJapaneseItems = [...japanese].sort(() => Math.random() - 0.5);
 
-const easyMiraclesItems = [...miracles].slice(0, 12);
-// .sort(() => Math.random() - 0.5);
-const easyFilmsItems = [...films].slice(0, 12);
-// .sort(() => Math.random() - 0.5);
-const easyJapaneseItems = [...japanese].slice(0, 12);
-// .sort(() => Math.random() - 0.5);
+const easyMiraclesItems = [...miracles]
+  .slice(0, 12)
+  .sort(() => Math.random() - 0.5);
+const easyFilmsItems = [...films].slice(0, 12).sort(() => Math.random() - 0.5);
+const easyJapaneseItems = [...japanese]
+  .slice(0, 12)
+  .sort(() => Math.random() - 0.5);
 
 export {
   proMiraclesItems,
