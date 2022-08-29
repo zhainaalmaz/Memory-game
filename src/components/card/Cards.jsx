@@ -133,7 +133,7 @@ const Cards = () => {
         items[prev].stat = '';
         setItems([...items]);
         setPrev(-1);
-      }, 500);
+      }, 400);
     }
   }
 
@@ -145,6 +145,7 @@ const Cards = () => {
       setPrev(id);
       setCount(count + 1);
     } else {
+      items[id].stat = 'disable';
       check(id);
       setCount(count + 1);
     }
