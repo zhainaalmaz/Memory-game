@@ -4,3 +4,9 @@
   font-weight: 600;
   padding: 20px;
 }
+
+@media (max-width: 556px) {
+  .time {
+    font-size: 20px;
+  }
+}

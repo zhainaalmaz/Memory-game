@@ -140,12 +140,11 @@ const Cards = () => {
   function handleClick(id) {
     setTime(true);
     if (prev === -1) {
-      items[id].stat = 'active disable';
+      items[id].stat = 'active disable ';
       setItems([...items]);
       setPrev(id);
       setCount(count + 1);
     } else {
-      items[id].stat = 'disable';
       check(id);
       setCount(count + 1);
     }
@@ -205,8 +204,10 @@ const Cards = () => {
               <p>player: {user.player}</p>
               <p>level: {user.level}</p>
               <p>category: {user.category}</p>
-              <p>time: {user.time}</p>
-              <p>count: {user.count}</p>
+              <p>
+                time: 0{minute}:{second}
+              </p>
+              <p>count: {count}</p>
               <p>score: {score}</p>
             </div>
             <NavLink to={'/board'} className={cls.modal_link}>

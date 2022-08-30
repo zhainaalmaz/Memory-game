@@ -6,8 +6,10 @@ import { Link } from 'react-router-dom';
 const Counter = ({ count, second, minute }) => {
   return (
     <div className={cls.timer}>
-      <p className={cls.count}>{count}</p>
-
+      <Link to={'/settings'}>
+        <button className={cls.backToMenu}>Exit</button>
+      </Link>
+      <p className={cls.count}>Count: {count}</p>
       <Timer minute={minute} second={second} />
     </div>
   );

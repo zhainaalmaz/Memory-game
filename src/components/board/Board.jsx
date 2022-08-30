@@ -70,7 +70,7 @@ const Board = () => {
             )}
           </div>
         ))}
-        <button onClick={() => navigate('/settings')}>Back to game</button>
+        <button onClick={() => navigate('/settings')}>Back to menu</button>
       </div>
     </div>
   );

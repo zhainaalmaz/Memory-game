@@ -1,10 +1,25 @@
-.count {
+.count,
+.backToMenu {
   color: #fff;
   font-size: 28px;
   font-weight: 600;
-  padding: 20px;
+  background: transparent;
 }
+
 .timer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.backToMenu:hover {
+  color: cornflowerblue;
+}
+
+@media (max-width: 556px) {
+  .count,
+  .backToMenu {
+    font-size: 20px;
+  }
 }
