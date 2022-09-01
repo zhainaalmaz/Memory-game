@@ -57,15 +57,15 @@ li:nth-child(4) {
   width: 20px;
   background: rgba(255, 255, 255, 0.2);
 }
-li {
+/* li {
   animation: animate 15s linear 1s infinite;
 }
 
 @keyframes animate {
   from {
-    transform: translateY(+1500%) rotate(180deg);
+    transform: translateX(+1500%) rotate(180deg);
   }
   to {
-    transform: translateY(-150%) rotate(360deg);
+    transform: translateX(-150%) rotate(360deg);
   }
-}
+} */
