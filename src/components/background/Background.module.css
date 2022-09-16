@@ -57,7 +57,7 @@ li:nth-child(4) {
   width: 20px;
   background: rgba(255, 255, 255, 0.2);
 }
-/* li {
+li {
   animation: animate 15s linear 1s infinite;
 }
 
@@ -68,4 +68,4 @@ li:nth-child(4) {
   to {
     transform: translateX(-150%) rotate(360deg);
   }
-} */
+}
