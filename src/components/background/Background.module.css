@@ -63,9 +63,9 @@ li {
 
 @keyframes animate {
   from {
-    transform: translateX(+1500%) rotate(180deg);
+    transform: translateY(+1500%) rotate(180deg);
   }
   to {
-    transform: translateX(-150%) rotate(360deg);
+    transform: translateY(-150%) rotate(360deg);
   }
 }
